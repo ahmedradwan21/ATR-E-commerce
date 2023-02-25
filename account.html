@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+		<!-- font icons -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<!-- ==== Style Switcher ==== -->
+		<link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1"disabled>
+		<link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2"disabled>
+		<link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3"disabled>
+		<link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4"disabled>
+		<link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5"disabled>
+		<link rel="stylesheet" href="style-switcher.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	</head>
+	<body>
+<section id="fofo">
+		<section 	id="header">
+			<a href="#" class="logo">ATR </a>
+			<div>
+				<ul id="navbar">
+					<li><a  href="index.html">Home</a></li>
+					<li><a href="shop.html">Shop</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a  class="active" href="account.html">Account</a></li>
+					<li>
+						<a  id="lg-bag" href="cart.html"><i class="far fa-shopping-bag"></i></a>
+					</li>
+					<a href="#" id="close"<i class="far fa-times"></i></a>
+				</ul>
+			</div>
+			<div id="mobile">
+				<i id="bar" class="fas fa-outdent"></i>
+				<a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+			</div>
+		</section>
+<!-- <section id="fofo"> -->
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<form >
+					<h1>Create Account</h1>
+					<span>or use your email for registration</span>
+					<input type="text" placeholder="Name" />
+					<input type="text" placeholder="Surname" />
+					<input type="email" id="signUpEmail" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button class="custom-btn btn-12"><span>Click!</span><span>Sign Up</span></button>
+				</form>
+			</div>
+
+			<div class="form-container sign-in-container">
+				<form onSubmit="{this.handleSubmitLogin}">
+					<h1>Sign in</h1>
+					<span>or use your account</span>
+					<input type="email" id="signInEmail" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button class="custom-btn btn-12"><span>Click!</span><span>Sign In</span></button>
+
+				</form>
+			</div>
+
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Welcome Back!</h1>
+						<p>
+							To keep connected with us please login with your personal info
+						</p>
+						
+					<button class="custom-btn btn-12" onclick="openSignIn()"><span>Click!</span><span>sign in</span></button>
+
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Hello, Friend!</h1>
+						<p>Enter your personal details and start journey with us</p>
+						
+					<button class="custom-btn btn-12" onclick="openSignUp()"><span>Click!</span><span>Sign Up</span></button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<!-- <div class="container">
+			<div class="form signup">
+				<h2>Sign Up</h2>
+				<div class="inputBox">
+					<input type="text" required="required">
+					<i class="fa-regular fa-user"></i>
+					<span>username</span>
+				</div>
+				<div class="inputBox">
+					<input type="text" required="required">
+					<i class="fa-regular fa-envelope"></i>
+					<span>email address</span>
+				</div>
+				<div class="inputBox">
+					<input type="password" required="required">
+					<i class="fa-solid fa-lock"></i>
+					<span>create password</span>
+				</div>
+				<div class="inputBox">
+					<input type="password" required="required">
+					<i class="fa-solid fa-lock"></i>
+					<span>confirm password</span>
+				</div>
+				<div class="inputBox">
+					<input type="submit" value="Create Account">
+				</div>
+				<p>Already a member ? <a href="#" class="login">Log in</a></p>
+			</div>
+	
+			<div class="form signin">
+				<h2>Sign In</h2>
+				<div class="inputBox">
+					<input type="text" required="required">
+					<i class="fa-regular fa-user"></i>
+					<span>username</span>
+				</div>
+				<div class="inputBox">
+					<input type="password" required="required">
+					<i class="fa-solid fa-lock"></i>
+					<span>password</span>
+				</div>
+				<div class="inputBox">
+					<input type="submit" value="Create Account">
+				</div>
+				<p>Not Registerd ? <a href="#" class="create">Create an account</a></p>
+			</div>
+		</div>
+
+
+ -->
+
+
+
+
+	
+    
+		<!-- color themes -->
+		<div class="style-switcher">
+			<div class="style-switcher-toggler s-icon">
+				<i class="fas fa-cog fa-spin"></i>
+			</div>
+			<div class="day-night s-icon">
+				<i class="fas "></i>
+			</div>
+			<h4>Theme colors</h4>
+			<div class="colors">
+				<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+				<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+				<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+				<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+				<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+				<!-- onclick="setActiveStyle" ===> circle-->
+			</div>
+		</div>
+	</section>
+		<!-- ==== style switcher end ==== -->
+		<!-- === JS Files === -->
+		<span class="up">UP</span>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+			referrerpolicy="no-referrer"></script> -->
+			<script src="script.js"></script>
+		</body>
+		</html>
+		
