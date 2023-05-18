@@ -3,7 +3,7 @@ Amazing Project E-commerce
 
 there are 7 pages on the site
 
-project  ( https://ahmedradwan21.github.io/E-commerce/ )
+project  ( [https://ahmedradwan21.github.io/E-commerce/](https://ahmedradwan21.github.io/ATR-E-commerce/) )
 
 
 intro project:
