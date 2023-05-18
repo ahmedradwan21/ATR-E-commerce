@@ -144,12 +144,16 @@ window.addEventListener("load", () => {
 	}
 });
 
+
+
 var typed = new Typed(".typing", {
 	strings: ["", "FullStack", "Software Engineer", "backend", "Marketing"],
 	typeSpeed: 100,
 	BackSpeed: 60,
 	loop: true,
 });
+
+
 let span = document.querySelector(".up");
 
 window.onscroll = function () {
@@ -157,6 +161,7 @@ window.onscroll = function () {
 		? span.classList.add("show")
 		: span.classList.remove("show");
 };
+
 
 span.onclick = function () {
 	window.scrollTo({
