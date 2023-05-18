@@ -1,6 +1,8 @@
 # E-commerce
 Amazing Project E-commerce
 
+there are 7 pages on the site
+
 project  ( https://ahmedradwan21.github.io/E-commerce/ )
 
 
