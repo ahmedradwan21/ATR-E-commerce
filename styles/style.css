@@ -671,27 +671,27 @@ nav img{
 #grid-0 {
 	background-color: #7bded9;
 
-	background-image: url(IMAGES/spekk-big.jpg);
+	background-image: url(/IMAGES/spekk-big.jpg);
 }
 #grid-1 {
 	background-color: #77e7b7;
 
-	background-image: url(img/b77.jpg);
+	background-image: url(/img/b77.jpg);
 }
 #grid-2 {
 	background-color: #7e5e7f;
 
-	background-image: url(IMAGES/cell-big2.jpg);
+	background-image: url(/IMAGES/cell-big2.jpg);
 }
 #grid-3 {
 	background-color: #a695bb;
 
-	background-image: url(IMAGES/tvv.webp);
+	background-image: url(/IMAGES/tvv.webp);
 }
 #grid-4 {
 	background-color: #95bba9;
 
-	background-image: url(IMAGES/gamme.png);
+	background-image: url(/IMAGES/gamme.png);
 }
 
 
