@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+		<!-- font icons -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<!-- ==== Style Switcher ==== -->
+		<link rel="stylesheet" href="./styles/color-1.css" class="alternate-style" title="color-1"disabled>
+		<link rel="stylesheet" href="./styles/color-2.css" class="alternate-style" title="color-2"disabled>
+		<link rel="stylesheet" href="./styles/color-3.css" class="alternate-style" title="color-3"disabled>
+		<link rel="stylesheet" href="./styles/color-4.css" class="alternate-style" title="color-4"disabled>
+		<link rel="stylesheet" href="./styles/color-5.css" class="alternate-style" title="color-5"disabled>
+		<link rel="stylesheet" href="./styles/style-switcher.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	</head>
+	<body>
+<section id="fofo">
+		<section id="header">
+			<section class="top-nav">
+				<div class="logo-nav">
+					<nav id="nav-and-products">
+						<img
+							src="IMAGES/menu.png"
+							alt=""
+							id="mb"
+							class="menu"
+							onclick="openMenu()"
+						/>
+						<a href="index.html" class="logo" id="mob-logo" onclick="goHome()"
+							>ATR</a
+						>
+						<div class="products">
+							<div class="main-links">
+								<a id="games" href="shop.html">Shop</a>
+								<a  href="about.html" id="coms">About Us</a>
+								<a href="contact.html" id="spks">Contact Us</a>
+								<a  href="account.html">Account</a>
+								<a  href="blog.html">Blog</a>
+								<a  href="bage.html">jquery</a>
+								
+								
+	
+							</div>
+						</div>
+					</nav>
+					<div class="justme">
+						<a href="index.html" class="logo12" id="web12-logo" onclick="goHome()"
+							>ATR</a
+						>
+					</div>
+					<div class="login-cart">
+						<div class="search-section search-web">
+							<input
+								type="search"
+								class="search"
+								name="search"
+								placeholder="Search..."
+								autocomplete="off"
+							/>
+							<!-- <input type="submit" class="go" value="GO" id="GO" /> -->
+							<div class="serc-img">
+								<img
+									src="./IMAGES/search.png"
+									alt=""
+									srcset=""
+								/>
+							</div>
+						</div>
+	
+						<div class="cart-box">
+							
+							<a  id="lg-bag" href="cart.html"><img 	id="cart-img"
+								src="./IMAGES/shopping-cart.png"
+								alt=""
+								srcset=""
+								onclick="toCart()" ></></a>
+							<p id="items-in-cart">0</p>
+						</div>
+	
+					</div>
+				</div>
+	
+							<div class="hero1">
+								<nav>
+									<!-- <img src="./IMAGES/ATR-removebg-preview.png" class="logo1"> -->
+								
+									<img src="./IMAGES/ahmed.png" class="user-pic" onclick="toggleMenu()">
+									<!-- <div class="sub-menu-wrap" id="subMenu">
+										<div class="sub-menu">
+											<div class="user-info">
+												<img src="./IMAGES/ahmed.png" alt="">
+													<h2>Ahmed Tarek Radwan</h2>
+											</div>
+											<hr>
+											<a href="#" class="sub-menu-link">
+												<img src="./IMAGES/user.png">
+												<p>Edit profile</p>
+												<span>></span>
+											</a>
+											<a href="#" class="sub-menu-link">
+												<img src="./IMAGES/settings.png">
+												<p>Setting & privacy</p>
+												<span>></span>
+	
+											</a>
+											<a href="#" class="sub-menu-link">
+												<img src="./IMAGES/heart.png">
+												<p>help and support</p>
+												<span>></span>
+	
+											</a>
+											<a href="#" class="sub-menu-link">
+												<img src="./IMAGES/log-out.png">
+												<p>Logout</p>
+												<span>></span>
+											</a>
+											
+										</div>
+									</div> -->
+								</nav>
+							</div>
+	
+	
+	<!--													 menu hi 														-->
+				<div class="menu-box" id="menu">
+					<div class="menu-heading">
+						<h1 class="men">ATR</h1>
+						<img class="cancel" onclick="closeMenu()" src="./IMAGES/close.png" />
+					</div>
+					<div class="main-menu">
+						<div class="menu-cat">
+							<h1>Shop By Department</h1>
+							<div id="kk">
+								<a href=""
+									>Cell Phones</a
+								>
+								<a href=""
+									>Televisions</a
+								>
+								<a href=""
+									>Laptops & Computers</a
+								>
+								<a href=""
+									>Speakers</a
+								>
+								<a href=""
+									>Video Games</a
+								>
+							</div>
+						</div>
+						<div class="menu-cat">
+							<h1>Sections</h1>
+							<div id="kk">
+								<a id="link" href="shop.html">Shop</a>
+								<a href="#">Products</a>
+								<a href="#">About Us</a>
+								<a href="#">Contact Us</a>
+							</div>
+						</div>
+						<div class="menu-cat">
+							<h1>Support</h1>
+							<div id="kk">
+								<a href="#">Visit Our Support</a>
+								<a href="#">Online Support</a>
+							</div>
+						</div>
+						<div class="menu-cat">
+							<div>
+								<a href="#" style="border: none; color: red">Logout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+<!-- <section id="fofo"> -->
+		<div class="container" id="container">
+			<div class="form-container sign-up-container">
+				<form >
+					<h1>Create Account</h1>
+					<span>or use your email for registration</span>
+					<input type="text" placeholder="Name" />
+					<input type="text" placeholder="Surname" />
+					<input type="email" id="signUpEmail" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button class="custom-btn btn-12"><span>Click!</span><span>Sign Up</span></button>
+				</form>
+			</div>
+
+			<div class="form-container sign-in-container">
+				<form onSubmit="{this.handleSubmitLogin}">
+					<h1>Sign in</h1>
+					<span>or use your account</span>
+					<input type="email" id="signInEmail" placeholder="Email" />
+					<input type="password" placeholder="Password" />
+					<button class="custom-btn btn-12"><span>Click!</span><span>Sign In</span></button>
+
+				</form>
+			</div>
+
+			<div class="overlay-container">
+				<div class="overlay">
+					<div class="overlay-panel overlay-left">
+						<h1>Welcome Back!</h1>
+						<p>
+							To keep connected with us please login with your personal info
+						</p>
+						
+					<button class="custom-btn btn-12" onclick="openSignIn()"><span>Click!</span><span>sign in</span></button>
+
+					</div>
+					<div class="overlay-panel overlay-right">
+						<h1>Hello, Friend!</h1>
+						<p>Enter your personal details and start journey with us</p>
+						
+					<button class="custom-btn btn-12" onclick="openSignUp()"><span>Click!</span><span>Sign Up</span></button>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	
+    
+		<!-- color themes
+		<div class="style-switcher">
+			<div class="style-switcher-toggler s-icon">
+				<i class="fas fa-cog fa-spin"></i>
+			</div>
+			<div class="day-night s-icon">
+				<i class="fas "></i>
+			</div>
+			<h4>Theme colors</h4>
+			<div class="colors">
+				<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+				<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+				<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+				<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+				<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+				<!-- onclick="setActiveStyle" ===> circle-->
+			</div>
+		</div> -->
+	</section>
+		<!-- ==== style switcher end ==== -->
+		<!-- === JS Files === -->
+		<span class="up">UP</span>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+			referrerpolicy="no-referrer"></script> -->
+			<script src="script.js"></script>
+		</body>
+		</html>
+		

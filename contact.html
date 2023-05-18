@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- css style -->
+		<link rel="stylesheet" href="./styles/style.css" />
+		<!-- font icons -->
+		<link
+			rel="stylesheet"
+			href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+		<!-- ==== Style Switcher ==== -->
+		<link rel="stylesheet" href="./styles/color-1.css" class="alternate-style" title="color-1"disabled>
+		<link rel="stylesheet" href="./styles/color-2.css" class="alternate-style" title="color-2"disabled>
+		<link rel="stylesheet" href="./styles/color-3.css" class="alternate-style" title="color-3"disabled>
+		<link rel="stylesheet" href="./styles/color-4.css" class="alternate-style" title="color-4"disabled>
+		<link rel="stylesheet" href="./styles/color-5.css" class="alternate-style" title="color-5"disabled>
+		<link rel="stylesheet" href="./styles/style-switcher.css">
+	</head>
+	<body>
+		<section class="top-nav">
+			<div class="logo-nav">
+				<nav id="nav-and-products">
+					<img
+						src="IMAGES/menu.png"
+						alt=""
+						id="mb"
+						class="menu"
+						onclick="openMenu()"
+					/>
+					<a href="index.html" class="logo" id="mob-logo" onclick="goHome()"
+						>ATR</a
+					>
+					<div class="products">
+						<div class="main-links">
+							<a id="games" href="shop.html">Shop</a>
+							<a  href="about.html" id="coms">About Us</a>
+							<a href="contact.html" id="spks">Contact Us</a>
+							<a  href="account.html">Account</a>
+							<a  href="blog.html">Blog</a>
+						</div>
+					</div>
+				</nav>
+				<div class="justme">
+					<a href="index.html" class="logo" id="web-logo" onclick="goHome()"
+						>ATR</a
+					>
+				</div>
+				<div class="login-cart">
+					<div class="search-section search-web">
+						<input
+							type="search"
+							class="search"
+							name="search"
+							placeholder="Search..."
+							autocomplete="off"
+						/>
+						<!-- <input type="submit" class="go" value="GO" id="GO" /> -->
+						<div class="serc-img">
+							<img
+								src="./IMAGES/search.png"
+								alt=""
+								srcset=""
+							/>
+						</div>
+					</div>
+
+					<div class="cart-box">
+						<img
+							id="cart-img"
+							src="./IMAGES/shopping-cart.png"
+							alt=""
+							srcset=""
+							onclick="toCart()"
+						/>
+						<p id="items-in-cart">0</p>
+					</div>
+
+				
+				</div>
+			</div>
+			<div class="menu-box" id="menu">
+				<div class="menu-heading">
+					<h1 class="men">ATR</h1>
+					<img class="cancel" onclick="closeMenu()" src="./IMAGES/close.png" />
+				</div>
+				<div class="main-menu">
+					<div class="menu-cat">
+						<h1>Shop By Department</h1>
+						<div id="kk">
+							<a href=""
+								>Cell Phones</a
+							>
+							<a href=""
+								>Televisions</a
+							>
+							<a href=""
+								>Laptops & Computers</a
+							>
+							<a href=""
+								>Speakers</a
+							>
+							<a href=""
+								>Video Games</a
+							>
+						</div>
+					</div>
+					<div class="menu-cat">
+						<h1>Sections</h1>
+						<div id="kk">
+							<a id="link" href="shop.html">Shop</a>
+							<a href="#">Products</a>
+							<a href="#">About Us</a>
+							<a href="#">Contact Us</a>
+						</div>
+					</div>
+					<div class="menu-cat">
+						<h1>Support</h1>
+						<div id="kk">
+							<a href="#">Visit Our Support</a>
+							<a href="#">Online Support</a>
+						</div>
+					</div>
+					<div class="menu-cat">
+						<div>
+							<a href="#" style="border: none; color: red">Logout</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="page-header"class="about-header">
+			<h2>#let 's_talk</h2>
+            <p>LEAVE A MESSAGE, We love to hear from you!</p>
+			
+
+		</section>
+
+
+        <section id="contact-details"class="section-p1">
+            <div class="details">
+                <span>GET IN TOUCH</span>
+                <h2>Visit one of our agency locations or contact us today</h2>
+                <h3>Head Office</h3>
+                <div>
+                    <li>
+                        <i class="fal fa-map"></i>
+                            <p>56 Glassford Street Glasgow Gl 1UL New York</p>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                            <p>tara02664@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                            <p>+1235394475923</p>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>
+                            <p>Monday to Saturday: 9.00am to 16.pm</p>
+                    </li>
+                </div>
+            </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29024.584407265644!2d46.77218881592271!3d24.58667500824463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f091c36f56825%3A0xf295f2cf24074404!2z2KfZhNi52LLZitiy2YrYqdiMINin2YTYsdmK2KfYtiDYp9mE2LPYudmI2K_Zitip!5e0!3m2!1sar!2seg!4v1676304612413!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+
+
+
+        <section id="form-details">
+            <form action="">
+                <span>LEAVE A MESSAGE</span>
+                <h2>We love to hear from you</h2>
+                <input type="text"placeholder="Your Name">
+                <input type="text"placeholder="Email">
+                <input type="text"placeholder="Subject">
+                <textarea name="" id="" cols="30" rows="10"placeholder="Your Message">
+
+                </textarea>
+                <button class="white">Submit</button>
+                
+            </form>
+            <div class="people">
+                <div>
+                    <img src="/IMAGES/ahmed.png" alt="">
+                    <p><span>ahmed Tarek Radwan</span>SoftWare Engineer</p>
+                    <br> phone : +1249317 <br>Email: tara02664@gmail.com
+                </div>
+                <div>
+                    <img src="/IMAGES/ahmed.png" alt="">
+                    <p><span>Karim Alaa</span>SoftWare Engineer</p>
+                    <br> phone : +1249317 <br>Email: akdjsf4@gmail.com
+                </div>
+                <div>
+                    <img src="/IMAGES/ahmed.png" alt="">
+                    <p><span>adham ezelarab</span>SoftWare Engineer</p>
+                    <br> phone : +1249317 <br>Email: asjdkjn@gmail.com
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <section id="newsletter" class="section-m1 section-p1">
+			<div class="newstext">
+				<h4>Sign up for Newsletters</h4>
+				<p>
+					Get E-mail updates about our latest shop and
+					<span>special offers.</span>
+				</p>
+			</div>
+			<div class="form">
+				<input type="text" placeholder="your email address" />
+				<button class="white">Sign up</button>
+			</div>
+		</section>
+
+
+
+		<footer class="section-p1">
+			<div class="col">
+				<img class="logo" src="IMAGES/ATR-removebg-preview.png" alt="" />
+				<h4>Contact</h4>
+				<p><strong>Address:</strong> 823 astralia ,strrt 34, san francisco</p>
+				<p><strong>phone:</strong> +0098765434567/+0954678976</p>
+				<p><strong>Hours:</strong> 1:40 - 1:45, sun -sat</p>
+				<div class="follow">
+					<h4>Follow us</h4>
+					<div class="icon">
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-instagram"></i>
+						<i class="fab fa-pinterest"></i>
+						<i class="fab fa-youtube"></i>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="ah">
+				<h4 class="pop">about</h4>
+				<a href="#">About</a>
+				<a href="#">Delivery Information</a>
+				<a href="#">privacy policy</a>
+				<a href="#">Terms & conditions</a>
+				<a href="#">Contact Us</a>
+			    </div>
+			</div>
+			<div class="col">
+				<div class="ah">
+				<h4>MY Account</h4>
+				<a href="#">Sign In</a>
+				<a href="#">View Cart</a>
+				<a href="#">My wishlist</a>
+				<a href="#">Track My Order</a>
+				<a href="#">Help</a>
+		        </div>
+			</div>
+			<div class="col install">
+				<h4>Install App</h4>
+				<p>From App Store or Google Play</p>
+				<div class="row">
+					<img src="img/pay/app.jpg" alt="" />
+					<img src="img/pay/play.jpg" alt="" />
+				</div>
+				<p>Secured Payment Gateways</p>
+				<img src="img/pay/pay.png" alt="" />
+			</div>
+			<div class="copyright">
+				<p><strong>ATR</strong> Company The Best in World (-_-)</p>
+			</div>
+		</footer>
+				<!-- color themes -->
+				<div class="style-switcher">
+					<div class="style-switcher-toggler s-icon">
+						<i class="fas fa-cog fa-spin"></i>
+					</div>
+					<div class="day-night s-icon">
+						<i class="fas "></i>
+					</div>
+					<h4>Theme colors</h4>
+					<div class="colors">
+						<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+						<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+						<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+						<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+						<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+						<!-- onclick="setActiveStyle" ===> circle-->
+					</div>
+				</div>
+				<!-- ==== style switcher end ==== -->
+				<!-- === JS Files === -->
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+				referrerpolicy="no-referrer"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+
