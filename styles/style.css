@@ -1324,7 +1324,7 @@ right: 178px;
 	justify-content: center;
 	align-items: flex-start;
 	text-align: center;
-	background-image: url("/IMAGES/tvv.webp");
+	background-image: url("../IMAGES/tvv.webp");
 	min-width: 845px;
 	height: 50vh;
 	background-size: cover;
@@ -1364,7 +1364,7 @@ right: 178px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background-image: url("/IMAGES/spekk-big.jpg");
+	background-image: url("../IMAGES/spekk-big.jpg");
 	min-width: 30%;
 	height: 30vh;
 	background-size: cover;
@@ -1373,10 +1373,10 @@ right: 178px;
 	margin-bottom: 20px;
 }
 #banner3 .banner-box2 {
-	background-image: url("/IMAGES/cell-big2.jpg");
+	background-image: url("../IMAGES/cell-big2.jpg");
 }
 #banner3 .banner-box3 {
-	background-image: url("/img/b77.jpg");
+	background-image: url("../img/b77.jpg");
 }
 #banner3 {
 	display: flex;
