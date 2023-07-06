@@ -4,7 +4,7 @@
 ### The e-commerce project is developed using HTML, CSS and JavaScript. The project includes features such as dark and light mode, multiple color themes, and seven pages: Shop, ATR, Blog, Login, Checkout, About, Shopping Cart, and Account.
 
 project  ( [https://ahmedradwan21.github.io/E-commerce/](https://ahmedradwan21.github.io/ATR-E-commerce/) )
-
+<!--  -->
 
 # intro project:
 

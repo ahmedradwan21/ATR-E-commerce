@@ -11,6 +11,7 @@
 	transition: all 0.3s ease;
 	transform: translatex(100%); /*اختفاء الtheme*/
 }
+/*  */
 .style-switcher.open {
 	transform: translatex(-25px);
 }
